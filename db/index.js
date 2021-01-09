@@ -34,7 +34,7 @@ const CheckoutBatch = sequelize.define('CheckoutBatch', {
 //   fname: {type: DataTypes.STRING}
 // });
 
-console.log(CheckoutBatch === sequelize.models.CheckoutBatch);
+//console.log(CheckoutBatch === sequelize.models.CheckoutBatch);
 
 
 const init = async () => {
@@ -43,7 +43,7 @@ const init = async () => {
     console.log(err);
   })
   .then(()=> {
-    console.log('tables synced');
+    //console.log('tables synced');
   })
 
 }

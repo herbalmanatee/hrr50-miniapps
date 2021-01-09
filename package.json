@@ -2,7 +2,7 @@
   "name": "checkout",
   "version": "1.0.0",
   "description": "checkout simulator",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "server": "nodemon server/server.js",
     "build": "webpack -w --mode=development",
@@ -17,8 +17,11 @@
     "@babel/preset-react": "^7.12.10",
     "babel-loader": "^8.2.2",
     "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "sequelize": "^6.3.5",
     "webpack": "^5.12.1",
     "webpack-cli": "^4.3.1"
   },
